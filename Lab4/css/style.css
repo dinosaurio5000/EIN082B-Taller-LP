@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+body{
+    height:100%;
+    margin: 0;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#nav {
+    background-color: #bf0514;
+    width: 100%;
+
+   
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    color: white; /* Cambia el color del texto a blanco */
+    margin-right: 100px; /* Ajusta este valor según lo que necesites */
+}
+
+#chile{
+    width: 350px;
+    height: 250px;
+}
+
+.jumbotron {
+    height: 50%;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white; /* Ajusta el color de fondo según tus necesidades */
+    z-index: 1000; /* Asegura que el jumbotron esté por encima de otros elementos */
+}
+
+/* Media query para anchuras extra grandes */
+
+.just{
+    display: flex; /* Utilizamos flexbox para alinear elementos */
+    
+    flex-direction: column; /* Alineamos los elementos en columnas */
+    align-items: flex-end; /* Alineamos el contenido a la derecha */
+    text-align: end;
+    text-align: justify;
+    
+}
+
+
+#st {
+    color: #c0c0c0;
+}
+
+
+footer {
+    color: white;
+    background-color: #272929;;
+}
+
+/*.color.navbar {
+    background-color: ;
+}*/
+
+#descripcion-sitio {
+    margin: 20px;
+    text-align: justify;
+}
+
+
+.col{
+    display: flex; /* Utilizamos flexbox para alinear elementos */
+    flex-direction: column; /* Alineamos los elementos en columnas */
+    align-items:center; /* Alineamos el contenido a la derecha */
+    text-align: justify;
+    margin-top: 20px;
+
+}
+.card {
+    width: 200px; /* Ancho de la tarjeta */
+    height: 200px; /* Altura de la tarjeta */
+    text-align: center; /* Centra el contenido del texto */
+    display: flex; /* Utiliza flexbox para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+
+}
+
+
+.iconos {
+    color:white;
+    font-size: 90px; /* Ajusta el tamaño de los iconos según sea necesario */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+
+#tres{
+    background-color: #c0c0c0;
+}
+
+#dos {
+    background-color: #4a6ba1;
+}
+
+#cont,#text {
+    color: #4a6ba1;
+}
+#uno{
+    background-color: #bf0514;
+}
+#plan{
+    margin-bottom: 10px;
+}
+
+#contact{
+    margin: 10px;
+}
+
+
+@media (min-width: 1000px) {
+    #inicio {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+    .card{
+        margin: 82px;
+    }
+    .col{
+        margin: 0;
+    }
+    #text {
+        width: 80%;
+        margin-left: 150px;
+    }
+    .jumbotron .container-fluid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #plan{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    #chile{
+        width: 150px;
+        height: 150px;
+    }
+    #contact{
+        margin-top: 50px;
+        padding: 0 !important;
+    }
+}
+
