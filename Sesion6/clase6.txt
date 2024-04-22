@@ -1,0 +1,12 @@
+Explotación de BD
+1.- Primeros pasos con  Djago Fremeword
+
+Pratones de diseño
+    Es una descripcion de un problema que ocurre en un contexto determinado
+    basada en un conjunto de fuwerzas y recomienda una solucion.
+
+
+MVT Architectural Pattern
+    Model
+    Viev
+    Template
