@@ -1,0 +1,23 @@
+{% extends 'core/base.html'%}
+
+{%block content %}
+    <h2>{{ titulo }}</h2>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <td>RUT</td>
+                <td>Nombre</td>
+                <td>Titulo</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            {% for docente in lista_docentes %}
+            <tr>
+                <td>{{docente.rut}}</td>
+                <td>{{docente.nombre}}</td>
+                <td>{{docente.titulo}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+{% endblock %}

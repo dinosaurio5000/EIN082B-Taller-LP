@@ -1,0 +1,5 @@
+la wea que se usa en esta sesión es el lenguaje DTL, que es el sistema de django para poder inyectar python en html
+se escribe con {% cosa %} --> en general o {{ cosa }} --> para seleccionar variable dentro de una lista o diccionario  
+en la clase se crean bloques modificables con DTL que con una pagina base se puede tener otras paginas que solo
+modifiquen el bloque o los bloques
+
