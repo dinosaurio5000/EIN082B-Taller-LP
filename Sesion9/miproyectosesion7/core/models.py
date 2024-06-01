@@ -5,8 +5,7 @@ from django.db import models
 class Carrera(models.Model):
     codigo = models.CharField(max_length=6, primary_key=True, verbose_name="Codigo")
     nombre = models.CharField(max_length=200, verbose_name="Nombre")
-    duracion = models.IntegerField(verbose_name="Duración (Semestres)")
-    jefecarrera = models.CharField(max_length=200,  verbose_name="Nombre") 
+    duracion = models.IntegerField(verbose_name="Duración (Semestres)") 
 
     def __str__(self) -> str:
         return self.nombre
